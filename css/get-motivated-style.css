@@ -1,0 +1,48 @@
+.motivation {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#quote-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+    border: 1px solid var(--brightorange);
+    border-radius: 1rem;
+    box-shadow: 7px 10px 20px var(--darkest);
+    padding: 2rem;
+}
+
+#quote-text, #source-text {
+    color: var(--ice);
+    font-family: "Alumni Sans", sans-serif;
+    font-size: 30px;
+}
+
+#source-text {
+    margin-bottom: 4rem;
+}
+
+#new-quote-button {
+    border: 1px solid var(--blue2);
+    background: var(--bluebase);
+    font-size: 28px;
+    border-radius: .5em;
+    padding: .5rem 1.5rem .5rem 1.5rem;
+    color: var(--ice);
+    transition: .3s ease-in-out;
+    position: fixed;
+    margin-top: 16rem;
+    cursor: pointer;
+}
+
+#new-quote-button:hover {
+    background: var(--blue2);
+}
